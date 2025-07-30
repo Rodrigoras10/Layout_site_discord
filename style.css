@@ -1,0 +1,43 @@
+@media (max-width: 1024px) {
+  .section1 img {
+    margin-left: 0;
+    max-width: 90%;
+  }
+
+  .section2 img,
+  .section3 img,
+  .section4 img {
+    max-width: 90%;
+  }
+
+  .section {
+    padding: 12px;
+  }
+
+  .section4 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .header-img {
+    max-width: 100%;
+  }
+
+  .section1 img,
+  .section2 img,
+  .section3 img,
+  .section4 img {
+    max-width: 100%;
+  }
+
+  .section {
+    padding: 8px;
+  }
+
+  .section4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
